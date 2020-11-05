@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ColorTilesAtItsFinest</string>
+    <string name="tiles">number of tiles</string>
+    <string name="tilesX">tiles horizontally</string>
+    <string name="tilesY">tiles vertically</string>
+    <string name="colors">number of colors</string>
+    <string name="epilepsy">epilepsy mode</string>
+    <string name="interval">interval (ms)</string>
+    <string name="duration">duration (ms)</string>
+    <string name="start">start</string>
+    <string name="square">square mode</string>
+
+    <string-array name="motionEvents">
+        <item>ACTION_DOWN</item>
+        <item>ACTION_UP</item>
+        <item>ACTION_MOVE</item>
+    </string-array>
+</resources>

@@ -1,0 +1,124 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/tiles"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/tiles"
+            android:inputType="number"
+            android:padding="15dp"
+            android:text="4"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:visibility="visible" />
+
+        <!--<EditText
+            android:id="@+id/tilesX"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/tilesX"
+            android:inputType="number"
+            android:padding="15dp"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:value="4"/>
+
+        <EditText
+            android:id="@+id/tilesY"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/tilesY"
+            android:inputType="number"
+            android:padding="15dp"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:value="4"/>-->
+
+        <EditText
+            android:id="@+id/colors"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/colors"
+            android:inputType="number"
+            android:padding="15dp"
+            android:text="2"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:visibility="visible" />
+
+        <!--<Spinner
+            android:id="@+id/motionEvents"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />-->
+
+        <CheckBox
+            android:id="@+id/square"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/square"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
+        <CheckBox
+            android:id="@+id/epilepsy"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/epilepsy"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/duration"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/duration"
+            android:inputType="number"
+            android:padding="15dp"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/interval"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/interval"
+            android:inputType="number"
+            android:padding="15dp"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/game"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:onClick="onGame"
+            android:padding="20dp"
+            android:text="@string/start"
+            android:textColor="@android:color/white"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
